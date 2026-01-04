@@ -1,0 +1,7 @@
+build
+dist
+venv
+*.log
+.vscode
+target
+sidecars/paddle-ocr/models
