@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "cd ../app && tauri"
   },
   "dependencies": {
     "@tauri-apps/api": "^2",
