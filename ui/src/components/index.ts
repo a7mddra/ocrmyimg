@@ -5,6 +5,6 @@
  */
 
 export { TextLayer } from "./TextLayer";
-export { ContextMenu } from "./ContextMenu";
+export { InlineMenu } from "./InlineMenu";
 export { ImageToolbar } from "./ImageToolbar";
 export { useTextSelection } from "./useTextSelection";

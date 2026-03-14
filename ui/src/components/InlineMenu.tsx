@@ -6,7 +6,7 @@
 
 import React from "react";
 
-interface ContextMenuProps {
+interface InlineMenuProps {
   menuRef: React.RefObject<HTMLDivElement>;
   sliderRef: React.RefObject<HTMLDivElement>;
   notchRef: React.RefObject<SVGSVGElement>;
@@ -17,7 +17,7 @@ interface ContextMenuProps {
   onSwitchPage: (pageIndex: number) => void;
 }
 
-export const ContextMenu: React.FC<ContextMenuProps> = ({
+export const InlineMenu: React.FC<InlineMenuProps> = ({
   menuRef,
   sliderRef,
   notchRef,

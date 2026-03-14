@@ -12,7 +12,7 @@ import "./index.css";
 // Components
 import {
   TextLayer,
-  ContextMenu,
+  InlineMenu,
   ImageToolbar,
   useTextSelection,
 } from "./components";
@@ -554,7 +554,7 @@ function App() {
         <div className="empty">Enter image path and press Scan</div>
       )}
 
-      <ContextMenu
+      <InlineMenu
         menuRef={menuRef}
         sliderRef={sliderRef}
         notchRef={notchRef}
